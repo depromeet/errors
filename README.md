@@ -1,3 +1,10 @@
+# errors
+
+> **이 레포지토리는 [`pkg/errors`](https://github.com/pkg/errors)를 Fork하여 관리합니다.**
+> 에러의 올바른 Stack trace를 위해 `pkg/erros`의 private field에 접근하는 기능을 필요로 하기 때문입니다.
+
+---
+
 # errors [![Travis-CI](https://travis-ci.org/pkg/errors.svg)](https://travis-ci.org/pkg/errors) [![AppVeyor](https://ci.appveyor.com/api/projects/status/b98mptawhudj53ep/branch/master?svg=true)](https://ci.appveyor.com/project/davecheney/errors/branch/master) [![GoDoc](https://godoc.org/github.com/pkg/errors?status.svg)](http://godoc.org/github.com/pkg/errors) [![Report card](https://goreportcard.com/badge/github.com/pkg/errors)](https://goreportcard.com/report/github.com/pkg/errors) [![Sourcegraph](https://sourcegraph.com/github.com/pkg/errors/-/badge.svg)](https://sourcegraph.com/github.com/pkg/errors?badge)
 
 Package errors provides simple error handling primitives.
